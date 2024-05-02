@@ -1,0 +1,12 @@
+docx2pdf==0.1.8
+gradio==4.27.0
+matplotlib==3.8.4
+numpy==1.26.4
+pillow==10.3.0
+PyQt5==5.15.10
+pandas==2.2.2
+python-docx==1.1.0
+tensorboard==2.16.2
+torch==2.2.2+cu121
+tqdm==4.66.2
+ultralytics==8.1.47

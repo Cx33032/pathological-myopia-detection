@@ -1,3 +1,6 @@
+# -*-   Coding with utf-8   -*- #
+# -*- Developed by Harryjin -*- #
+
 import sys,os
 now_dir = os.getcwd()
 sys.path.append(now_dir) # Add the working directory to the path
