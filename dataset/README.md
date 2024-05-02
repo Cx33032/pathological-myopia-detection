@@ -4,8 +4,12 @@
 ```
 ├─dataset
    ├─classification
-   │  ├─no
-   │  └─yes
+   │  ├─train
+   │  │  ├─no
+   │  │  └─yes
+   │  └─val
+   │      ├─no
+   │      └─yes
    └─detection
        ├─train
        │  ├─images

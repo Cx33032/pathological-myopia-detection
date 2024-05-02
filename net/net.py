@@ -3,6 +3,7 @@ import torch.nn as nn
 from torch.autograd import Variable
 import torch.nn.functional as F
 
+# Custom Convolution Neural Network
 class CustomCNNReLU(nn.Module):
     def __init__(self):
         super(CustomCNNReLU, self).__init__()

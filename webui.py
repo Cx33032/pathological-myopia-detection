@@ -22,6 +22,7 @@ language = 'en'
 # cn -> Chinese
 # en -> English
 
+# Parsing arguments from the console
 parser = argparse.ArgumentParser()
 parser.add_argument('-l', '--language', type = str, default = 'en', help = 'Gradio Output Language')
 args = parser.parse_args()
