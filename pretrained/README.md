@@ -1,0 +1,1 @@
+## Place your pretrained [YOLO model](https://github.com/ultralytics/ultralytics) here

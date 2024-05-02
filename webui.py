@@ -110,7 +110,6 @@ def predict_image(name, img_path):
 iface = gr.Interface(
     fn=predict_image,
     inputs=[
-        # gr.Image(type="pil", label="Upload Image")
         gr.Textbox(label="Patient Name"),
         gr.Image(type="filepath", label="Upload Image")
     ],

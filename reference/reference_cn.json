@@ -1,0 +1,19 @@
+{
+    "PPA": "视盘萎缩斑 (Peripapillary Atrophy), ",
+    "OD": "视盘 (Optic Disc)正常, ",
+    "weiss": "玻璃体混浊 (Vitreous Opacities), ",
+    "DR": "玻璃膜疣 (Drusen), ",
+    "MD": "黄斑萎缩 (Macular Degeneration), ",
+    "LR": "格子样变性 (Lattice Degeneration), ",
+    "Fuchs": "色素沉积 (Fuchs Dystrophy) 有致盲风险, ",
+    "Lowconf": "此识别精度较低, 建议复查, ",
+    "Leopard": "患有豹纹状改变",
+    "Noleopard": "未患有豹纹状改变",
+    "具体情况已在图中标出": "具体情况已在图中标出",
+    "并有以下诊断": "并有以下诊断",
+    "精度": "精度",
+    "levelzero": "诊断: 无病理性近视",
+    "levelone": "诊断: 一级病理性近视",
+    "leveltwo": "诊断: 二级病理性近视",
+    "levelthree": "诊断: 三级病理性近视"
+}

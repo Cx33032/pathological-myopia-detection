@@ -1,0 +1,19 @@
+{
+    "PPA": "Peripapillary Atrophy (Abnormal situation found on the optic disc), ",
+    "OD": "Optic Disc normal, ",
+    "weiss": "Vitreous Opacities Found, ",
+    "DR": "Drusen Found, ",
+    "MD": "Macular Degeneration Found, ",
+    "LR": "Lattice Degeneration Found, ",
+    "Fuchs": "Fuchs Dystrophy Found (Possibly leading to blindness), ",
+    "Lowconf": "low confidence, further confirmation is recommended, ",
+    "Leopard": "Leopard-spot Lesion Found",
+    "Noleopard": "Leopard-spot Lesion Not Found",
+    "具体情况已在图中标出": "The specific situations are shown in the graph below",
+    "并有以下诊断": "With the following focus",
+    "精度": "Accuracy",
+    "levelzero": "Diagnosis: Normal",
+    "levelone": "Diagnosis: Level One (Not severe) Pathologic Myopia",
+    "leveltwo": "Diagnosis: Level Two Pathologic Myopia",
+    "levelthree": "Diagnosis: Level Three Pathologic Myopia"
+}
