@@ -53,7 +53,7 @@ def predict_image(name, img_path):
     doc_out = docx.Document()
 
     output_str = 'Patient Name: ' + name
-    output_file = name.replace(' ', '_') + '_report.docx'
+    output_file = 'result/' + name.replace(' ', '_') + '_report.docx'
     doc_out.add_paragraph(output_str)
     
     total_symptoms = 0
@@ -106,9 +106,12 @@ def predict_image(name, img_path):
     # Classification ends
     print(total_symptoms)
     doc_out.save(output_file)
+
     pythoncom.CoInitialize()
     docx2pdf.convert(output_file, output_file.replace('.docx', '.pdf'))
     pythoncom.CoInitialize()
+
+    os.remove(output_file)
     return output_result, im # The word output and the image output
 
 iface = gr.Interface(

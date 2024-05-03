@@ -3,14 +3,17 @@ This project is based on ResNet101 and YOLOv8 to detect the focus that cause hig
 
 ## Table of Content
 [Final Product](#final-product)  
-[Preparation](#preparation)  
-[Run](#run)  
+[Quick Start](#quick-start)
 
 ## Final Product
+In the webui, the user can upload an ultra high definition fundus image and type in the name  
+![input](images/webui_input.png)
+The program will run classification model and trained YOLOv8 model to identify the focus (Labeled image and word result)  
+![output](images/webui_result.png)  
+After identification, the program will summarize all of the data into a pdf file  
+![pdf](images/pdf_output.png)  
 
-## Preparation
-
-## Run
+## Quick Start
 ### Install Dependencies
 ```shell
 pip install -r requirements.txt
