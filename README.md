@@ -1,8 +1,9 @@
-# pathological-myopia-detection
+# Pathological High Myopia Detection
 This project is based on ResNet101 and YOLOv8 to detect the focus that cause high myopia
 
 ## Table of Content
 [Final Product](#final-product)  
+[Dataset Preparation](#dataset-preparation)  
 [Quick Start](#quick-start)
 
 ## Final Product
@@ -18,6 +19,8 @@ After identification, the program will summarize all of the data into a pdf file
   
 ![pdf](images/pdf_output.png)  
 
+## Dataset Preparation
+  
 ## Quick Start
 ### Install Dependencies
 ```shell
