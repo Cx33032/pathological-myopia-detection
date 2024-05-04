@@ -18,9 +18,18 @@ The program will run classification model and trained YOLOv8 model to identify t
 After identification, the program will summarize all of the data into a pdf file  
   
 ![pdf](images/pdf_output.png)  
+[Output File](output/Jane_Doe_report.pdf)
 
 ## Dataset Preparation
-  
+The [dataset](dataset) can be divided into two parts:  
+[Classification](#classification)  
+[Detection](#detection)  
+
+### Classification
+
+
+### Detection
+
 ## Quick Start
 ### Install Dependencies
 ```shell
