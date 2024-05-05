@@ -4,7 +4,7 @@ This project is based on ResNet101 and YOLOv8 to detect the focus that cause hig
 ## Table of Content
 [Final Product](#final-product)  
 [Dataset Preparation](#dataset-preparation)  
-[Quick Start](#quick-start)
+[Quick Start](#quick-start)  
 [Reference](#reference)
 
 ## Final Product
