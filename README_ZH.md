@@ -44,7 +44,7 @@ There are two directory under classification:
 ```
 
 ### 检测
-Focus list:  
+病灶类型:  
 |Name|Label|
 |---|---|
 |peripapillary atrophy|PPA|
@@ -86,15 +86,15 @@ pip install -r requirements.txt
 ```shell
 python classification.py 
 ```
-or use jupyter notebook to run  
+或者使用jupyter notebook  
 
 ### 训练YOLOv8
 ```shell
 python yolo.py
 ```
-or use jupyter notebook to run
+或者使用jupyter notebook  
 
-### 运行webuui
+### 运行webui
 ```shell
 Usage: python webui.py [options]
 
