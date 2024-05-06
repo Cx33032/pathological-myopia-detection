@@ -1,6 +1,8 @@
 # Pathological High Myopia Detection
 This project is based on ResNet101 and YOLOv8 to detect the focus that cause high myopia
 
+### <center><a href="#">English</a> | <a href="README_ZH.md">简体中文</a></center>
+
 ## Table of Content
 [Final Product](#final-product)  
 [Dataset Preparation](#dataset-preparation)  
@@ -27,9 +29,40 @@ The [dataset](dataset) can be divided into two parts:
 [Detection](#detection)  
 
 ### Classification
+The Classification is mainly classifying the pictures with leopard-spot lesion or not.  
 
+There are two directory under classification:  
+```
+├─dataset
+   ├─classification
+      ├─train   <- Training
+      │  ├─no       <- Without leopard-spot lesion
+      │  └─yes      <- With leopard-spot lesion
+      └─val     <- Validation
+          ├─no
+          └─yes
+```
 
 ### Detection
+Focus list:  
+|Name|Label|
+|---|---|
+|peripapillary atrophy|PPA|
+|macular degeneration|MD|
+|vitreous opacities|weiss|
+|drusen|DR|
+|optic disc|OD|
+|fuchs dystrophy|Fuch|  
+  
+#### Peripapillary Atrophy (PPA)
+Peripapillary atrophy describes atrophy or thinning in the layers of the retina and retinal pigment epithelium around the optic nerve in the back of the eye  
+![PPA](images/PPA_example.png)  
+
+#### Macular Degeneration (MD)  
+Age-related macular degeneration is the most common cause of severe loss of eyesight among people 50 and older. Only the center of vision is affected with this disease. It is important to realize that people rarely go blind from it.  
+![MD](images/MD_example.png)
+
+
 
 ## Quick Start
 ### Install Dependencies
