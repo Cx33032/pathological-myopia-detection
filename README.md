@@ -62,7 +62,20 @@ Peripapillary atrophy describes atrophy or thinning in the layers of the retina 
 Age-related macular degeneration is the most common cause of severe loss of eyesight among people 50 and older. Only the center of vision is affected with this disease. It is important to realize that people rarely go blind from it.  
 ![MD](images/MD_example.png)
 
+#### Vitreous Opacities (weiss)
+Vitreous opacities are floating objects inside the vitreous body. They can be of different sizes, shapes and densities. New objects are treated conservatively, and laser treatment is not usually indicated until the floaters stabilize in size and density.  
+![weiss](images/weiss_example.png)  
 
+#### Drusen (DR)
+Drusen bodies are extracellular deposits of lipids, proteins, and cellular debris which are found within the layers of the retina and appear as small, yellow deposits on dilated eye exams.  
+![DR](images/drusen_example.jpg)  
+
+#### Optic Disc (OD)
+The optic disc is the round spot on the retina formed by the passage of the axons of the retinal ganglion cells, which transfer signals from the photoreceptors of the eye to the optic nerve, allowing us to see.  
+![OD](images/normal_example.png)  
+
+#### Fuchs Dystrophy (Fuchs)
+Fuchs (pronounced "fooks") dystrophy is an eye disease in which cells lining the inner surface of the cornea slowly start to die off. The disease most often affects both eyes.  
 
 ## Quick Start
 ### Install Dependencies
