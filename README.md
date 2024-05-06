@@ -1,7 +1,7 @@
 # Pathological High Myopia Detection
 This project is based on ResNet101 and YOLOv8 to detect the focus that cause high myopia
 
-### <center><a href="#">English</a> | <a href="README_ZH.md">简体中文</a></center>
+## <div align="center"><b><a href="README.md">English</a> | <a href="README_ZH.md">简体中文</a></b></div>
 
 ## Table of Content
 [Final Product](#final-product)  
