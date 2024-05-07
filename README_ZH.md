@@ -57,22 +57,27 @@
   
 #### Peripapillary Atrophy 视盘萎缩斑 (PPA)
 高度近视患者的症状表现，高度近视眼因眼轴的过度伸长，可引起眼底的退行性改变。 黄斑部可发生形成不规则的、单独或融合的白色萎缩斑，有时可见出血。  
+  
 ![PPA](images/PPA_example.png)  
 
 #### Macular Degeneration 黄斑萎缩 (MD)  
 AMD (MD) 又叫年龄相关性黄斑变性，能够影响视网膜中心区域黄斑。AMD在绝大多数情况下见于双眼，病程为进行性，最终可导致中央视觉永久丧失，也是工业化国家中50岁以上人群视力低下的首要原因。  
+  
 ![MD](images/MD_example.png)
 
 #### Vitreous Opacities 玻璃体浑浊 (weiss)
 玻璃体浑浊又称飞蚊症。 先天残留于玻璃体内的胚胎细胞或组织、视网膜或葡萄膜的出血侵入玻璃体内，高血压、糖尿病、葡萄膜炎的出血或渗出物侵入玻璃体内，老年人高度近视眼的玻璃体变性，均可导致玻璃体液化而浑浊。 其他如眼外伤、眼内异物存久留、寄生虫或肿瘤等也可发生玻璃体浑浊。  
+  
 ![weiss](images/weiss_example.png)  
 
 #### Drusen 玻璃膜疣 (DR)
 玻璃膜疣是胶样或透明的小体，是一种发生在脉络膜视网膜的一种变性疾病，是色素上皮细胞异常代谢产物在视网膜上的异常沉积所致。  
+  
 ![DR](images/drusen_example.jpg)  
 
 #### Optic Disc 正常视盘 (OD)
 正常视盘略呈椭圆形、淡红色、边界清楚，中央呈漏斗形凹陷，色泽稍淡，称为生理凹陷。  
+  
 ![OD](images/normal_example.png)  
 
 #### Fuchs Dystrophy 福斯氏角膜内皮营养不良 (Fuchs)

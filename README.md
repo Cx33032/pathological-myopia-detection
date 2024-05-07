@@ -25,9 +25,9 @@ After identification, the program will summarize all of the data into a pdf file
 [Output File](output/Jane_Doe_report.pdf)
 
 ## Dataset Preparation
-The [dataset](dataset) can be divided into two parts:  
-[Classification](#classification)  
-[Detection](#detection)  
+#### The [dataset](dataset) can be divided into two parts:  
+- [Classification](#classification)  
+- [Detection](#detection)  
 
 ### Classification
 The Classification is mainly classifying the pictures with leopard-spot lesion or not.  
@@ -57,22 +57,27 @@ Focus list:
   
 #### Peripapillary Atrophy (PPA)
 Peripapillary atrophy describes atrophy or thinning in the layers of the retina and retinal pigment epithelium around the optic nerve in the back of the eye  
+  
 ![PPA](images/PPA_example.png)  
 
 #### Macular Degeneration (MD)  
 Age-related macular degeneration is the most common cause of severe loss of eyesight among people 50 and older. Only the center of vision is affected with this disease. It is important to realize that people rarely go blind from it.  
+  
 ![MD](images/MD_example.png)
 
 #### Vitreous Opacities (weiss)
 Vitreous opacities are floating objects inside the vitreous body. They can be of different sizes, shapes and densities. New objects are treated conservatively, and laser treatment is not usually indicated until the floaters stabilize in size and density.  
+  
 ![weiss](images/weiss_example.png)  
 
 #### Drusen (DR)
 Drusen bodies are extracellular deposits of lipids, proteins, and cellular debris which are found within the layers of the retina and appear as small, yellow deposits on dilated eye exams.  
+  
 ![DR](images/drusen_example.jpg)  
 
 #### Optic Disc (OD)
 The optic disc is the round spot on the retina formed by the passage of the axons of the retinal ganglion cells, which transfer signals from the photoreceptors of the eye to the optic nerve, allowing us to see.  
+  
 ![OD](images/normal_example.png)  
 
 #### Fuchs Dystrophy (Fuchs)
