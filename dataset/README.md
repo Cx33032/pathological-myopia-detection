@@ -1,6 +1,6 @@
-## This directory is for the dataset
+# This directory is for the dataset
 
-### Structure
+## Structure
 ```
 ├─dataset
    ├─classification

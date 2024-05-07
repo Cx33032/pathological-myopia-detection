@@ -1,6 +1,6 @@
-## Detecting the focus on the eyes
+# Detecting the focus on the eyes
 
-### Label Reference:  
+## Label Reference:  
 |Name|Label|
 |---|---|
 |peripapillary atrophy|PPA|

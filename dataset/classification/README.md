@@ -1,1 +1,1 @@
-## Labels for classify the Leopard-Spot Lesion
+# Labels for classify the Leopard-Spot Lesion

@@ -1,5 +1,5 @@
 # 病理性高度近视检测
-This project is based on ResNet101 and YOLOv8 to detect the focus that cause high myopia
+基于ResNet和YOLOv8的病理性高度近视检测
 
 ## <div align="center"><b><a href="README.md">English</a> | <a href="README_ZH.md">简体中文</a></b></div>
 
@@ -10,71 +10,71 @@ This project is based on ResNet101 and YOLOv8 to detect the focus that cause hig
 - [参考](#参考)
 
 ## 成果
-In the webui, the user can upload an ultra high definition fundus image and type in the name  
+在最后的webui中，使用者可以输入患者名称并上传患者的超高清眼底图彩照  
   
 ![input](images/webui_input.png)  
   
-The program will run classification model and trained YOLOv8 model to identify the focus (Labeled image and word result)  
+模型会首先进行分类（是否有豹纹状改变）然后会用YOLOv8来识别病灶  
   
 ![output](images/webui_result.png)  
   
-After identification, the program will summarize all of the data into a pdf file  
+识别完成后，会总结所有的结果并同时输出到webui和pdf文件中  
   
 ![pdf](images/pdf_output.png)  
-[Output File](output/Jane_Doe_report.pdf)
+#### [输出文件](output/Jane_Doe_report.pdf)
 
 ## 数据集准备
-The [dataset](dataset) can be divided into two parts:  
-[Classification](#classification)  
-[Detection](#detection)  
+[数据集](dataset)分为两部分:  
+[分类](#分类)  
+[检测](#检测)  
 
 ### 分类
-The Classification is mainly classifying the pictures with leopard-spot lesion or not.  
+分类算法会对患者的眼底图进行分类：有无豹纹状改变  
 
-There are two directory under classification:  
+在[dataset/classification](dataset/classification)文件夹下有两个子文件夹:  
 ```
 ├─dataset
    ├─classification
-      ├─train   <- Training
-      │  ├─no       <- Without leopard-spot lesion
-      │  └─yes      <- With leopard-spot lesion
-      └─val     <- Validation
+      ├─train   <- 训练集
+      │  ├─no       <- 没有豹纹状改变
+      │  └─yes      <- 有豹纹状改变
+      └─val     <- 测试集
           ├─no
           └─yes
 ```
 
 ### 检测
 病灶类型:  
-|Name|Label|
-|---|---|
-|peripapillary atrophy|PPA|
-|macular degeneration|MD|
-|vitreous opacities|weiss|
-|drusen|DR|
-|optic disc|OD|
-|fuchs dystrophy|Fuch|  
+|英文名|中文名|标签|
+|---|---|---|
+|peripapillary atrophy|视盘萎缩斑|PPA|
+|macular degeneration|黄斑萎缩|MD|
+|vitreous opacities|玻璃体浑浊|weiss|
+|drusen|玻璃膜疣|DR|
+|optic disc|正常视盘|OD|
+|fuchs dystrophy|福斯氏角膜内皮营养不良|Fuchs|  
   
-#### Peripapillary Atrophy (PPA)
+#### Peripapillary Atrophy 视盘萎缩斑 (PPA)
 Peripapillary atrophy describes atrophy or thinning in the layers of the retina and retinal pigment epithelium around the optic nerve in the back of the eye  
 ![PPA](images/PPA_example.png)  
 
-#### Macular Degeneration (MD)  
+#### Macular Degeneration 黄斑萎缩 (MD)  
 Age-related macular degeneration is the most common cause of severe loss of eyesight among people 50 and older. Only the center of vision is affected with this disease. It is important to realize that people rarely go blind from it.  
 ![MD](images/MD_example.png)
 
-#### Vitreous Opacities (weiss)
+#### Vitreous Opacities 玻璃体浑浊 (weiss)
 Vitreous opacities are floating objects inside the vitreous body. They can be of different sizes, shapes and densities. New objects are treated conservatively, and laser treatment is not usually indicated until the floaters stabilize in size and density.  
 ![weiss](images/weiss_example.png)  
 
-#### Drusen (DR)
+#### Drusen 玻璃膜疣 (DR)
 Drusen bodies are extracellular deposits of lipids, proteins, and cellular debris which are found within the layers of the retina and appear as small, yellow deposits on dilated eye exams.  
 ![DR](images/drusen_example.jpg)  
 
-#### Optic Disc (OD)
+#### Optic Disc 正常视盘 (OD)
 The optic disc is the round spot on the retina formed by the passage of the axons of the retinal ganglion cells, which transfer signals from the photoreceptors of the eye to the optic nerve, allowing us to see.  
 ![OD](images/normal_example.png)  
 
-#### Fuchs Dystrophy (Fuchs)
+#### Fuchs Dystrophy 福斯氏角膜内皮营养不良 (Fuchs)
 Fuchs (pronounced "fooks") dystrophy is an eye disease in which cells lining the inner surface of the cornea slowly start to die off. The disease most often affects both eyes.  
 
 ## 快速开始
