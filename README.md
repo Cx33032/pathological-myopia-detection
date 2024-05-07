@@ -79,6 +79,8 @@ Fuchs (pronounced "fooks") dystrophy is an eye disease in which cells lining the
 
 ## Quick Start
 ### Install Dependencies
+Installastion of PyTorch: [link](https://pytorch.org/)  
+
 ```shell
 pip install -r requirements.txt
 ```

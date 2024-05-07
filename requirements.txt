@@ -8,5 +8,7 @@ pandas==2.2.2
 python-docx==1.1.0
 tensorboard==2.16.2
 torch==2.2.2+cu121
+torchaudio==2.2.2+cu121
+torchvision==0.17.2+cu121
 tqdm==4.66.3
 ultralytics==8.1.47
