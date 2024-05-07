@@ -8,6 +8,7 @@ This project is based on ResNet101 and YOLOv8 to detect the focus that cause hig
 - [Dataset Preparation](#dataset-preparation)  
 - [Quick Start](#quick-start)  
 - [Reference](#reference)
+- [Acknowledgement](#ackowledgement)
 
 ## Final Product
 In the webui, the user can upload an ultra high definition fundus image and type in the name  
@@ -110,3 +111,6 @@ A common command: python webui.py
 * [Ultralytics YOLOv8](https://docs.ultralytics.com/modes/train/)
 * [搭建一个简单的神经网络LeNet（基于PyTorch）](https://blog.csdn.net/ft_sunshine/article/details/91388812)
 * [Gradio Documentation](https://www.gradio.app/docs)
+
+## Ackowledgement
+#### I do not have much specialize knowledge on ophthalmology. If there is any problems related to my contents, welcome to pull request or post and issue. Thanks a lot! 
