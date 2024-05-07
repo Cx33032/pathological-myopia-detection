@@ -4,10 +4,10 @@ This project is based on ResNet101 and YOLOv8 to detect the focus that cause hig
 ## <div align="center"><b><a href="README.md">English</a> | <a href="README_ZH.md">简体中文</a></b></div>
 
 ## 目录
-[Final Product](#final-product)  
-[Dataset Preparation](#dataset-preparation)  
-[Quick Start](#quick-start)  
-[Reference](#reference)
+- [成果](#成果)  
+- [数据集准备](#数据集准备)  
+- [快速开始](#快速开始)  
+- [参考](#参考)
 
 ## 成果
 In the webui, the user can upload an ultra high definition fundus image and type in the name  
