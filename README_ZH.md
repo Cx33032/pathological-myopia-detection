@@ -3,6 +3,9 @@
 
 ## <div align="center"><b><a href="README.md">English</a> | <a href="README_ZH.md">简体中文</a></b></div>
 
+## 声明
+#### 本人对于眼科的专业水平并不高，如有问题，欢迎pull request或者在issue里面提出（万分感谢）  
+
 ## 目录
 - [成果](#成果)  
 - [数据集准备](#数据集准备)  
@@ -115,6 +118,3 @@ A common command: python webui.py
 * [Ultralytics YOLOv8](https://docs.ultralytics.com/modes/train/)
 * [搭建一个简单的神经网络LeNet（基于PyTorch）](https://blog.csdn.net/ft_sunshine/article/details/91388812)
 * [Gradio Documentation](https://www.gradio.app/docs)
-
-## 声明
-#### 本人对于眼科的专业水平并不高，如有问题，欢迎pull request或者在issue里面提出（万分感谢）  
