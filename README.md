@@ -3,6 +3,9 @@ This project is based on ResNet101 and YOLOv8 to detect the focus that cause hig
 
 ## <div align="center"><b><a href="README.md">English</a> | <a href="README_ZH.md">简体中文</a></b></div>
 
+## Ackowledgement
+#### I do not have much specialize knowledge on ophthalmology and I am doing this because this is a meaningful project to learn and deploy. If there is any problems related to my contents, welcome to pull request or post and issue. Thanks a lot! 
+
 ## Table of Content
 - [Final Product](#final-product)  
 - [Dataset Preparation](#dataset-preparation)  
@@ -116,6 +119,3 @@ A common command: python webui.py
 * [Ultralytics YOLOv8](https://docs.ultralytics.com/modes/train/)
 * [搭建一个简单的神经网络LeNet（基于PyTorch）](https://blog.csdn.net/ft_sunshine/article/details/91388812)
 * [Gradio Documentation](https://www.gradio.app/docs)
-
-## Ackowledgement
-#### I do not have much specialize knowledge on ophthalmology. If there is any problems related to my contents, welcome to pull request or post and issue. Thanks a lot! 
