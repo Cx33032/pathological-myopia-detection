@@ -99,11 +99,17 @@ python classification.py
 ```
 or use jupyter notebook to run  
 
+The training result of ResNet18 with pre-trained model:  
+![ResNet18_Result](images/resnet18_result.png)  
+
 ### Train YOLOv8 detection model 
 ```shell
 python yolo.py
 ```
-or use jupyter notebook to run
+or use jupyter notebook to run  
+
+The training result of YOLOv8 with pre-trained model ```yolov8s.pt```:  
+![YOLO_Result](images/confusion_matrix_normalized.png)  
 
 ### Run the webui
 ```shell
