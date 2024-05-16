@@ -98,11 +98,19 @@ python classification.py
 ```
 或者使用jupyter notebook  
 
+使用ResNet18加预训练模型结果如下：  
+  
+![ResNet18_Result](images/resnet18_result.png)  
+
 ### 训练YOLOv8
 ```shell
 python yolo.py
 ```
 或者使用jupyter notebook  
+
+使用yolov8s预训练模型混淆矩阵效果如下：  
+  
+![YOLO_Result](images/confusion_matrix_normalized.png)  
 
 ### 运行webui
 ```shell
