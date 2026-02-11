@@ -2,7 +2,7 @@ docx2pdf==0.1.8
 gradio==5.11.0
 matplotlib==3.8.4
 numpy==1.26.4
-pillow==10.3.0
+pillow==12.1.1
 PyQt5==5.15.10
 pandas==2.2.2
 python-docx==1.1.0
